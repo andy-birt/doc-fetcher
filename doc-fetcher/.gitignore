@@ -1,0 +1,7 @@
+.claude/
+api_docs/
+venv/
+__pycache__/
+logs/
+*.pyc
+.env

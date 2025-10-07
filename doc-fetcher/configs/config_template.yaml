@@ -1,0 +1,26 @@
+base_urls:
+  - "https://api.example.com/docs"
+  
+output_dir: "api_documentation"
+max_depth: 2
+delay_seconds: 0.5
+
+# Optional: Filter URLs
+include_patterns:
+  - ".*\/api\/.*"
+  - ".*\/docs\/.*"
+
+exclude_patterns:
+  - ".*\/blog\/.*"
+  - ".*\.pdf$"
+
+# Optional: Custom headers (for authenticated APIs)
+custom_headers:
+  # "Authorization": "Bearer your-token-here"
+  # "Accept": "application/json"
+
+# Feature settings
+follow_external_links: false
+extract_code_examples: true
+extract_api_endpoints: true
+create_index: true
